@@ -106,7 +106,7 @@ extension Message {
 
 extension Message: Equatable {
     public static func == (lhs: Message, rhs: Message) -> Bool {
-        lhs.id == rhs.id && lhs.status == rhs.status
+        lhs.id == rhs.id && lhs.status == rhs.status && lhs.text == rhs.text
     }
 }
 
